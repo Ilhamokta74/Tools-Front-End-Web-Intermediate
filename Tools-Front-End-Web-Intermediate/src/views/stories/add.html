@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %> | <%= brandName %>
+  </title>
+</head>
+
+<body>
+  <header>
+    <nav-app brandName="<%= brandName %>"></nav-app>
+  </header>
+
+  <main>
+    <div class="main-content">
+      <div class="container py-5">
+        <h1 class="mb-3">Add Story</h1>
+
+        <form class="row g-3" id="addRecordForm" novalidate>
+          <div class="col-12">
+            <!-- Photo Upload -->
+            <input-image-with-preview inputId="validationCustomFileInput"
+              invalidFeedbackMessage="Silahkan Isi Terlebih Dahulu" required></input-image-with-preview>
+          </div>
+
+          <div class="col-12">
+            <label for="validationCustomDescription" class="form-label">Description</label>
+            <textarea-with-validation inputId="validationCustomDescription"
+              invalidFeedbackMessage="Silahkan Isi Terlebih Dahulu" required></textarea-with-validation>
+          </div>
+
+          <div class="col-12 text-end">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <footer-app></footer-app>
+  </footer>
+</body>
+
+</html>
