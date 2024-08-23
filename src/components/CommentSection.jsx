@@ -17,7 +17,7 @@ export default function CommentSection({
       <CommentInput comment={comment} />
       <Box position="relative" my={5}>
         <Divider borderColor="teal.500" />
-        <AbsoluteCenter px="4" bg="teal.100">
+        <AbsoluteCenter px="4" bg="blue.100">
           <Heading as="h3" fontSize="xl" color="teal.900">
             Komentar ({comments.length})
           </Heading>
