@@ -57,7 +57,7 @@ function DetailPage() {
   return (
     <Box as="main" w="auto" py="5rem">
       <Container as="section" maxW="5xl">
-        <Card bg="teal.100">
+        <Card>
           <ThreadDetailItem
             upVote={onUpvoteThread}
             downVote={onDownVoteThread}

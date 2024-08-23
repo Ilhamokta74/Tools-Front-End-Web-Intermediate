@@ -12,7 +12,7 @@ export default function CommentInput({ comment }) {
           Beri Komentar
         </Heading>
         <Textarea
-          bg="teal.50"
+          borderColor="teal.500"
           focusBorderColor="teal.400"
           value={commentValue}
           onChange={setCommentValue}
