@@ -75,7 +75,7 @@ export default function ThreadItem({
   };
 
   return (
-    <Card size="md" mt="1rem" bg="blue.50" boxShadow="lg">
+    <Card size="md" mt="1rem" bg="blue.50" boxShadow="xl">
       <CardHeader as="header">
         <Tag
           size="md"

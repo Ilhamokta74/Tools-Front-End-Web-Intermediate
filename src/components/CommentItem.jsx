@@ -63,7 +63,7 @@ export default function CommentItem({
 
   return (
     <CardBody m={-2}>
-      <Card bg="blue.50" boxShadow="lg">
+      <Card bg="blue.50" boxShadow="xl">
         <CardHeader
           display="flex"
           alignItems="center"
