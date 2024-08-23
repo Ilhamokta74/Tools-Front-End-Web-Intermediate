@@ -9,7 +9,7 @@ export default function ThreadsList({
   authUserId,
 }) {
   return (
-    <div>
+    <div className="bg-white">
       {threads.map((thread) => (
         <ThreadItem
           key={thread.id}

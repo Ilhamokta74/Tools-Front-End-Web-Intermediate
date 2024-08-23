@@ -88,7 +88,7 @@ export default function ThreadDetailItem({
       <CardFooter as="footer" justify="space-between" gap={15} fontSize="lg">
         <Flex gap={2} align="center">
           <Button
-            colorScheme="teal"
+            colorScheme="green"
             isActive={upVoteIsActive}
             leftIcon={upVoteIsActive ? <FaThumbsUp /> : <FaRegThumbsUp />}
             aria-label="Upvote Button"
@@ -97,7 +97,7 @@ export default function ThreadDetailItem({
             <Text>{upVotesBy.length}</Text>
           </Button>
           <Button
-            colorScheme="teal"
+            colorScheme="red"
             isActive={downVoteIsActive}
             leftIcon={downVoteIsActive ? <FaThumbsDown /> : <FaRegThumbsDown />}
             aria-label="Downvote Button"

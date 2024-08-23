@@ -63,7 +63,7 @@ export default function CommentItem({
 
   return (
     <CardBody m={-2}>
-      <Card bg="teal.50">
+      <Card bg="blue.100">
         <CardHeader
           display="flex"
           alignItems="center"
@@ -83,7 +83,7 @@ export default function CommentItem({
         <CardFooter>
           <Flex gap={2} align="center">
             <Button
-              colorScheme="teal"
+              colorScheme="green"
               isActive={upVoteIsActive}
               leftIcon={upVoteIsActive ? <FaThumbsUp /> : <FaRegThumbsUp />}
               aria-label="Upvote Button"
@@ -92,7 +92,7 @@ export default function CommentItem({
               <Text>{upVotesBy.length}</Text>
             </Button>
             <Button
-              colorScheme="teal"
+              colorScheme="red"
               isActive={downVoteIsActive}
               leftIcon={
                 downVoteIsActive ? <FaThumbsDown /> : <FaRegThumbsDown />

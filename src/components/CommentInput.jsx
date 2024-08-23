@@ -12,8 +12,8 @@ export default function CommentInput({ comment }) {
           Beri Komentar
         </Heading>
         <Textarea
-          borderColor="teal.500"
-          focusBorderColor="teal.400"
+          borderColor="blue.500"
+          focusBorderColor="blue.400"
           value={commentValue}
           onChange={setCommentValue}
         />

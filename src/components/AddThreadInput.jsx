@@ -11,19 +11,19 @@ export default function AddThreadInput({ addThread }) {
     <Box as="form">
       <Stack>
         <Input
-          focusBorderColor="teal.400"
+          focusBorderColor="blue.400"
           placeholder="Judul"
           value={title}
           onChange={setTitleChange}
         />
         <Input
-          focusBorderColor="teal.400"
+          focusBorderColor="blue.400"
           placeholder="Kategori"
           value={category}
           onChange={setCategoryChange}
         />
         <Textarea
-          focusBorderColor="teal.400"
+          focusBorderColor="blue.400"
           placeholder="Isi"
           value={body}
           onChange={setBodyChange}

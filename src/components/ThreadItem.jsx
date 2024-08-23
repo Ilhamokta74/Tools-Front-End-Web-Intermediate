@@ -75,7 +75,7 @@ export default function ThreadItem({
   };
 
   return (
-    <Card size="md" mt="1rem" bg="teal.100">
+    <Card size="md" mt="1rem" bg="blue.100">
       <CardHeader as="header">
         <Tag
           size="md"
@@ -98,7 +98,7 @@ export default function ThreadItem({
       <CardFooter as="footer" justify="space-between" gap={15}>
         <Flex gap={2} align="center">
           <Button
-            colorScheme="teal"
+            colorScheme="green"
             isActive={upVoteIsActive}
             leftIcon={upVoteIsActive ? <FaThumbsUp /> : <FaRegThumbsUp />}
             aria-label="Upvote Button"
@@ -107,7 +107,7 @@ export default function ThreadItem({
             <Text>{upVotesBy.length}</Text>
           </Button>
           <Button
-            colorScheme="teal"
+            colorScheme="red"
             isActive={downVoteIsActive}
             leftIcon={downVoteIsActive ? <FaThumbsDown /> : <FaRegThumbsDown />}
             aria-label="Downvote Button"
